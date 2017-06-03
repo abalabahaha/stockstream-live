@@ -1,0 +1,17 @@
+{
+  "name": "stockstream-live-backend",
+  "version": "1.0.0",
+  "description": "Another NodeJS project",
+  "main": "src/server.js",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "socket.io": "^2.0.2"
+  },
+  "devDependencies": {},
+  "author": "abalabahaha",
+  "license": "MIT",
+  "optionalDependencies": {},
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
