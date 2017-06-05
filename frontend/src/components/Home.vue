@@ -42,7 +42,7 @@
           <div class="col">
             <p class="compact">Portfolio: {{ formatPrice(portfolioTotal) }}</p>
             <!-- Ghetto Indents -->
-            <p class="compact">&nbsp;&nbsp;&nbsp;&nbsp;• Referrals (estimated): {{ formatPrice(referralTotal) }}</p>
+            <!-- <p class="compact">&nbsp;&nbsp;&nbsp;&nbsp;• Referrals (estimated): {{ formatPrice(referralTotal) }}</p> -->
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@ export default {
         this.transactionHistory = msg.transactionHistory
       },
       marketStateUpdate(msg) {
-        this.marketOpen = msg.open
+        this.marketOpen = msg.marketOpen
         this.tradesRemaining = msg.tradesRemaining
       }
     }
